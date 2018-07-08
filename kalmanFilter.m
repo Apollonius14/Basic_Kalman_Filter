@@ -1,7 +1,8 @@
 function [ predict_x, predict_y, state, param ] = kalmanFilter( t, x, y, state, param, previous_t )
 
 % Takes a set of sensor measurements and previous state to return
-% the max a-posteriori state and uncertainity
+% the max a-posteriori state and uncertainity of a **2D linear dynamical
+% system**
 
 % Argument params:  
 % x and y are sensor measurements (z(t))
