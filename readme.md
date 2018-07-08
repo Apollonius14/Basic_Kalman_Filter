@@ -9,9 +9,9 @@ Author(s): UPenn School of Engineering and Applied Science
 
 Contributor: Omar Kadhim - Summer 2018
 
-A simple 2D motion estimation script which uses combines information from a 
-previously known state, a new observation and known position sensor noise
-to estimate the current state.
+A simple 2D motion estimation script which combines information from a 
+previously known state, a new observation, position uncertainity and sensor 
+noise to estimate the current state using linear algebra and gaussians.
 
 IP Disclaimer: I am not sure whether I'm allowed to re-use and make public
 this modified software library. I genuinely only want to do so to showcase
