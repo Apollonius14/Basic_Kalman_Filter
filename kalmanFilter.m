@@ -48,7 +48,7 @@ function [ predict_x, predict_y, state, param ] = kalmanFilter( t, x, y, state, 
     
     % We now have z(t) as fn(x(t)) and x(t) as fn(x(t-1))
     % p((x(t)|x(t-1)) = gauss(A*x(t-1), A*P(t-1)*A' + State_Noise)
-    % p((z(t)|x(t)) = gauss(C*x(t), C*P(t)*C' + State_Noise)
+    % p((z(t)|x(t)) = gauss(C*x(t), C*P(t)*C' + Sen_Noise)
     % Where P is the state uncertainity
     
     %% Kalman filter updates
